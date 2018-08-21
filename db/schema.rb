@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2018_08_21_225559) do
   create_table "students", force: :cascade do |t|
     t.string "name"
     t.integer "age"
+    t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
